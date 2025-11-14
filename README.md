@@ -24,13 +24,9 @@
     Obrigado pela visita — sinta-se à vontade para navegar pelo repositório.  
     Se quiser conversar sobre oportunidades ou colaborarmos em um projeto, meu contato está no final do README.
   </p>
-
-  <footer>
-    <small>— Emerson</small>
-  </footer>
 </section>
 
-<h1><a href="COLOQUE_SEU_LINK_AQUI" target="_blank" rel="noopener noreferrer">
+<h1><a href="https://emerson444.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">
   Clique aqui para acessar
 </a>
 </h1>
