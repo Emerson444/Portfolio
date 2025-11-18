@@ -7,6 +7,8 @@
     <title>Emerson — Desenvolvedor Web</title>
     <meta name="description" content="Portfólio de Emerson — desenvolvimento web, projetos e contato.">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="shortcut icon" href="/assets/icon/tag.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -15,9 +17,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="shortcut icon" href="/assets/icon/tag.ico" type="image/x-icon">
-
+    
 </head>
 
 <body>
@@ -95,32 +95,51 @@
             <div class="texto">
                 <h1>Meus Projetos</h1>
             </div>
-            <div class="card" style="width: 15rem; height: auto;">
-                <img src="..." class="card-img-top" alt="PetSoft">
+            <div class="card" style="width: 15rem; height: 11rem; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#petsoftModal">
                 <div class="card-body">
                     <h5 class="card-title">PetSoft</h5>
                     <p class="card-text">Uma solução prática para organizar informações, cuidados e rotina dos seus
                         animais.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="modal fade" id="petsoftModal" tabindex="-1" aria-labelledby="petsoftLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="petsoftLabel">PetSoft - Detalhes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                    <div class="row ms-2 mt-1">
+                            <div class="col-auto d-flex gap-2">
+                                    <i class="fa fa-clock-o fa-2x text-warning"></i>
+                                    <h5 class="mt-1 text-warning">Em Processo</h5>
+                                </div>
+                            </div>
+                <div class="modal-body text-dark">
+                    Aqui está um pop-up funcionando com Bootstrap 5.
+                    Ele abre ao clicar no card inteiro.
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
                 </div>
             </div>
-            <div class="card" style="width: 15rem; height: auto;">
-                <img src="..." class="card-img-top" alt="recep_itens">
+            <div class="card" style="width: 15rem; height: 11rem;">
                 <div class="card-body">
                     <h5 class="card-title">Receptor De Preço</h5>
                     <p class="card-text">Sistema em Python integrado ao Excel para receber, registrar e atualizar preços
                         direto do banco de dados.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 15rem; height: auto;">
-                <img src="..." class="card-img-top" alt="">
+            <div class="card" style="width: 15rem; height: 11rem;">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
 
