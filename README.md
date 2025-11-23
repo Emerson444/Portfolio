@@ -1,5 +1,5 @@
 <section>
-  <h1>👋 Olá — eu sou o Emerson</h1>
+  <h1>EAE</h1>
   <p>
     Bem-vindo ao meu portfólio! Aqui você encontrará uma seleção dos meus projetos, 
     minhas habilidades técnicas e formas de contato. Este é um espaço pensado para mostrar
